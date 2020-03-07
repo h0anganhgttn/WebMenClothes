@@ -1,0 +1,507 @@
+
+
+
+
+.cf-myclass{
+	background-color:  rgba(82,64,120,0.9) !important;
+	color: white;
+	padding: 5px; 
+}
+.login-myclass a{
+	text-decoration: none;
+	color: white;
+}
+
+.login-myclass a:hover{
+	color: #FE9705;
+}
+
+.login-myclass a, .login-myclass b, .login-myclass i{
+	float: right;
+	line-height: 1.5;
+}
+
+
+
+
+
+
+/* On screens that are 600px or less, set the background color to blue */
+@media screen and (max-width: 768px) {
+    
+	.col-myclass{
+		display: none;
+	}
+}
+
+@media screen and (max-width: 770px){
+	.login-myclass{
+  		display: none;
+  	}
+	.col-myclass{
+		display: none;
+	}
+	.img-myclass{
+
+	}
+	.openNav-myclass{
+		display: inline-block !important;
+	}
+	.menu-myclass{
+		display: none;
+		font-size: 18px;
+	}
+	.row-myclass{
+		font-size: 13px;
+	}
+	#menu{
+		margin-top: 2em;
+	}
+}
+
+@media screen and (max-width: 991px){
+	.login-myclass{
+  		display: none;
+  	}
+	.openNav-myclass{
+		display: inline-block !important;
+	}
+	.menu-myclass{
+		display: none;
+	}
+	.menu-myclass{
+	margin-top: 2em;
+	}
+	.col-myclass{
+		display: none;
+	}
+	.cart-myclass b{
+		display: none;
+	}
+	.cart-myclass i{
+		font-size: 30px;
+		line-height: 2;
+		color: black;
+		background-color: white!important;
+	}
+	
+}
+
+
+.openNav-myclass{
+	display: none;
+}
+
+/* The side navigation menu */
+.sidenav {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #fff; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 2em; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  z-index: 2;
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 10px 30px;
+  text-decoration: none;
+  font-size: 16px;
+  color:  rgba(82,64,120,0.9) !important;
+  display: block;
+  transition: 0.3s;
+}
+.sidenav input{
+	padding-left: 30px;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+  transition: margin-left .5s;
+  
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+
+}
+
+
+
+.menu-myclass{
+	margin-top: 2em;
+	background-color:  rgba(82,64,120,0.9) !important;
+	
+}
+.menu-myclass ul{
+	list-style-type: none;
+		margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: rgba(82,64,120,0.9) ;
+	
+}
+.menu-myclass ul li{
+	float: left;
+}
+
+.menu-myclass ul li:hover{
+	background-color: #FE9705;
+}
+
+.menu-myclass input[type = "text"], .menu-myclass input[type = submit]{
+	margin: 13px 0;
+	border: none;
+}
+
+
+.menu-myclass ul li a{
+	display: block;
+	color: white;
+	text-align: center;
+	margin: 17px;
+	text-decoration: none;
+}
+
+
+
+.container span a{
+	text-decoration: none;
+	color: white;
+}
+.navbar a{
+	color: white;
+}
+.dropdown-menu{
+	background-color: rgba(82,64,120,0.9) !important;
+}
+
+#owl-demo .item{
+  margin: 3px;
+}
+#owl-demo .item img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+
+
+.row span a{
+	text-decoration: none;
+}
+#menu{
+	background-color:  rgba(82,64,120,0.9) !important;
+	text-align: center;
+	border-radius: 10px;
+	padding: 5px;
+	color: white;
+}
+#dropdown{
+	border: 1px solid #e9ecef;
+	border-radius: 10px;
+}
+
+#dropdown ul li {
+	display: block;
+}
+#dropdown ul li a{
+	text-decoration: none;
+	color: black;
+}
+#dropdown ul li a:hover{
+	text-decoration: none;
+	color:  rgba(82,64,120,0.9) !important;
+	padding-left: 1em;
+}
+.carousel-item img{
+	border-radius: 20px;
+}
+img.card-img-top{
+	border-radius: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+/*---------------------------main---------------------------*/
+
+
+
+
+
+
+/*----------------style product------------*/
+
+.product{
+	margin-top: 35px;
+}
+.product ul li a{
+	color: black;
+	font-weight: 600;
+	font-size: 16px;
+}
+.product ul li a:hover{
+	color: #80BB35;
+}
+
+.item .cart{
+	margin-top: 20px;
+	width: 250px;
+	height: 335px;
+}
+ .item .cart:hover{
+	transform: scale(0.95);
+    transition: all ease-in-out 0.2s;
+}
+ .cart a img{
+	width: 100%;
+}
+.cart .cart-img{
+	height: 225px;
+}
+ .cart .cart-title,
+ .cart .price{
+	line-height: 25px;
+	height:25px;
+	margin-top: 5px;
+}
+ .cart .price span{
+	width: 50%;
+	display: inline-block;
+	float: left;
+}
+ .cart .link-cart {
+	width: 100%;
+	height: 40px;
+	display: inline-block;
+	background-color: #E0E1E2;
+	line-height: 40px;
+	text-decoration: none;
+	text-align: center;
+	border-radius: 5px;
+	color: black;
+	font-weight: 600;
+	margin-top: 10px;
+}
+.cart a:hover{
+	color: #80BB35; 
+	text-decoration: none;
+}
+
+
+.product div .owl-item{
+	display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+/*.product{
+	margin-top: 35px;
+}
+.product ul li a{
+	color: black;
+	font-weight: 600;
+	font-size: 16px;
+}
+.product ul li a:hover{
+	color: #80BB35;
+}
+
+.item .cart{
+	margin-top: 20px;
+	width: 250px;
+	height: 315px;
+}
+ .item .cart:hover .cart-img{
+	transform: scale(1.1);
+    transition: 0.5s;
+}
+ .cart img{
+	width: 100%;
+}
+.cart .cart-img{
+	height: 225px;
+}
+ .cart .cart-title,
+ .cart .price{
+	line-height: 25px;
+	height:25px;
+}
+ .cart .price span{
+	width: 50%;
+	display: inline-block;
+	float: left;
+}
+ .cart a{
+	width: 100%;
+	height: 225px;
+	display: inline-block;
+	background-color: #E0E1E2;
+	text-decoration: none;
+	text-align: center;
+	border-radius: 5px;
+	color: black;
+	font-weight: 600;
+	overflow: hidden;
+}
+.cart a:hover{
+	color: #80BB35; 
+}
+
+.product div .owl-item{
+	display: flex;
+    justify-content: center;
+}*/
+
+/*-----------------/style product-----------*/
+
+
+
+/*-------------------news------------------*/
+
+.brick{
+	position: relative;
+	border-bottom: 2px solid #FE9705;
+	margin-top: 3em;
+	margin-bottom: 3em;
+}
+.title-myclass {
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%);
+	background-color: #80BB35;
+	color: white;
+	top:-20px;
+	border-radius: 35px;
+	padding: 10px 20px;
+}
+.title-myclass{
+	/*background-color: #80BB35;
+	text-align: center;
+	margin-top: 2em;
+	color: white;*/
+}
+
+
+
+/*-------------------/news------------------*/
+
+
+
+
+
+/*---------------------------/main--------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-----------------------style footer------------------*/
+.col-myclass-footer{
+	margin-top: 1em;
+}
+.col-myclass-footer li{
+	list-style-type: none;
+	color: white;
+}
+.col-myclass-footer li a{
+	text-decoration: none;
+	color: white;
+}
+.col-myclass-footer li a:hover{
+	color: #FE9705;
+}
+.col-myclass-footer li h5{
+	margin-bottom: 1em;
+}
+.icon-myclass{
+	color: #FE9705;
+}
+
+.icon2-myclass{
+	width: 30px;
+	font-size: 25px;
+}
+/*-----------------------/style footer------------------*/
+
+
+/*----------------------title các trang-----------------*/
+.news-title-myclass{
+		margin: 2em 0;
+}
+.news-title-myclass a{
+	text-decoration: none;
+	color: black;
+	font-size: 18px;
+}
+.news-title-myclass span a {
+	color:#80BB35;
+}
+.news-title-myclass a:hover, .news-body-myclass a:hover{
+	color:#80BB35;
+}
+#img img{
+	padding: 10px;
+}
+
+.news-img-myclass{
+	margin: 1em;
+}
+.news-img-myclass img{
+	border-radius: 5px;
+}
+.news-body-myclass{
+	margin-top: 1em;
+}
+.news-body-myclass a{
+	text-decoration: none;
+	color: black;
+}
+@media(max-width: 991px){
+	.news-title-myclass {
+		background-color: #f6f6f6;
+	}
+}
